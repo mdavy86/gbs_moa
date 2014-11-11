@@ -1,0 +1,13 @@
+@startuml
+title:Discovery
+start
+if (sequence) then
+  :Tags by Taxa;
+else
+  :tag counts;
+  :Tags on physical map
+            (TOPM);
+endif 
+:SNP caller;
+:Genotypes;
+@enduml
